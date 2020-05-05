@@ -44,16 +44,24 @@ public class Calculation_r02Test
     public void DecisionCoverage_case1()
     {
         Calculation_r02 calculation1 = new Calculation_r02();
-        assertEquals(10, calculation1.min(10, 20));
+        assertEquals(12, calculation1.min(12, 16));
     }
 
     @Test
     public void DecisionCoverage_2()
     {
         Calculation_r02 calculation2 = new Calculation_r02();
-        assertEquals(-9, calculation2.min(-9, -3));
+        assertEquals(0, calculation2.min(0, 15));
+    }
+    
+    @Test
+    public void DecisionCoverage_reivew()
+    {
+        Calculation_r02 calculation2 = new Calculation_r02();
+        assertEquals(-100, calculation2.min(-15, -100));
     }
 
+    
     @Test
     public void MultipleConditionCoverage_case1()
     {

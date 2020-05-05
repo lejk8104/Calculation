@@ -1,10 +1,6 @@
 #BlueJ class context
 comment0.target=Calculation
-<<<<<<< HEAD
 comment0.text=\r\n\ WhiteBox\ Test\ \uC5F0\uC2B5(20200424)\r\n\r\n\ @author\ (\uC6B0\uBA54\uBAA8\uD1A0\uC138\uC774\uC57C\ 2018315056/\uC774\uC7AC\uADFC\ 2015225129)\r\n\ @version\ (2020.04.29)\r\n
-=======
-comment0.text=\r\n\ WhiteBox\ Test\ \uC5F0\uC2B5(20200424)\r\n\r\n\ @author\ (profsHwang)\r\n\ @version\ (2020.04.24)\r\n
->>>>>>> de1f81c71374e4e4d1608c06f6615a23f0187526
 comment1.params=array
 comment1.target=int\ findMax(int[])
 comment1.text=\r\n\ 1\uCC28\uC6D0\ \uBC30\uC5F4\uC5D0\ \uC800\uC7A5\uB41C\ \uC815\uC218\uAC12\uB4E4\ \uC911\uC5D0\uC11C\ \uCD5C\uB300\uAC12\uC744\ \uAD6C\uD574\uC11C\ \uBC18\uD658\uD558\uB294\ \uBA54\uC18C\uB4DC\r\n\r\n\ @param\ \ array\ \ \uC815\uC218\uAC12\uB4E4\uC774\ \uC800\uC7A5\uB41C\ 1\uCC28\uC6D0\ \uBC30\uC5F4\r\n\ @return\ \ \ \ \ \ \ \ \uCD5C\uB300\uAC12\r\n
