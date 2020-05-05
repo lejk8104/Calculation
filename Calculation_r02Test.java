@@ -53,6 +53,46 @@ public class Calculation_r02Test
         Calculation_r02 calculation2 = new Calculation_r02();
         assertEquals(-9, calculation2.min(-9, -3));
     }
+
+    @Test
+    public void MultipleConditionCoverage_case1()
+    {
+        Calculation_r02 calculation_1 = new Calculation_r02();
+        assertEquals(false, calculation_1.isValidPosition(30, 50, 40));
+    }
+
+    @Test
+    public void MultipleConditionCoverage_case2()
+    {
+        Calculation_r02 calculation_2 = new Calculation_r02();
+        assertEquals(false, calculation_2.isValidPosition(50, 30, 40));
+    }
+
+    @Test
+    public void MultipleConditionCoverage_case3()
+    {
+        Calculation_r02 calculation_3 = new Calculation_r02();
+        assertEquals(false, calculation_3.isValidPosition(60, 80, 50));
+    }
+
+    @Test
+    public void MultipleConditionCoverage_case4()
+    {
+        Calculation_r02 calculation_4 = new Calculation_r02();
+        assertEquals(true, calculation_4.isValidPosition(-60, -80, -50));
+    }
+
+    @Test
+    public void MultipleConditionCoverage_sample()
+    {
+        Calculation_r02 calculation = new Calculation_r02();
+        assertEquals(true, calculation.isValidPosition(60, 60, 80));
+    }
 }
+
+
+
+
+
 
 
