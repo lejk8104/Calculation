@@ -1,9 +1,9 @@
 #BlueJ class context
-comment0.target=CalculationTest
-comment0.text=\r\n\ The\ test\ class\ CalculationTest.\r\n\r\n\ @author\ (\uC6B0\uBA54\uBAA8\uD1A0\uC138\uC774\uC57C\ 2018315056/\uC774\uC7AC\uADFC\ 2015225129)\r\n\ @version\ (2020.04.29)\r\n
+comment0.target=Calculation2Test
+comment0.text=\r\n\ The\ test\ class\ Calculation2Test.\r\n\r\n\ @author\ (\uC6B0\uBA54\uBAA8\uD1A0\uC138\uC774\uC57C\ 2018315056/\uC774\uC7AC\uADFC\ 2015225129)\r\n\ @version\ (2020.04.29)\r\n
 comment1.params=
-comment1.target=CalculationTest()
-comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ CalculationTest\r\n
+comment1.target=Calculation2Test()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ Calculation2Test\r\n
 comment2.params=
 comment2.target=void\ setUp()
 comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n

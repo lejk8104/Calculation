@@ -6,17 +6,17 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * The test class CalculationTest.
+ * The test class Calculation2Test.
  *
  * @author (우메모토세이야 2018315056/이재근 2015225129)
  * @version (2020.04.29)
  */
-public class CalculationTest
+public class Calculation2Test
 {
     /**
-     * Default constructor for test class CalculationTest
+     * Default constructor for test class Calculation2Test
      */
-    public CalculationTest()
+    public Calculation2Test()
     {
     }
 
@@ -39,42 +39,42 @@ public class CalculationTest
     public void tearDown()
     {
     }
-    
+
     @Test
     public void Loop1()
     {
         int[] array = new int[0];
-        assertEquals(0, Calculation.findMax(array));
+        assertEquals(0, Calculation2.findMax(array));
     }
-    
+
     @Test
     public void Loop2()
     {
         int[] array = new int[1];
-        array[0] = -555555;
-        assertEquals(-555555, Calculation.findMax(array));
+        array[0] = 5;
+        assertEquals(5, Calculation2.findMax(array));
     }
 
     @Test
-    public void Loop3()     // not working?
+    public void Loop3()
     {
         int[] array = new int[2];
         array[0] = 5;
         array[1] = -2;
-        assertEquals(5, Calculation.findMax(array));
+        assertEquals(5, Calculation2.findMax(array));
     }
-    
+
     @Test
-    public void Loop4()    // working... error?
+    public void Loop4()
     {
         int[] array = new int[2];
         array[0] = 2;
         array[1] = 5;
-        assertEquals(5, Calculation.findMax(array));
+        assertEquals(5, Calculation2.findMax(array));
     }
 
     @Test
-    public void Loop5()     //case n
+    public void Loop5()
     {
         int[] array = new int[6];
         array[0] = 5;
@@ -83,7 +83,11 @@ public class CalculationTest
         array[3] = -4;
         array[4] = 15;
         array[5] = 0;
-        assertEquals(15, Calculation.findMax(array));
+        assertEquals(15, Calculation2.findMax(array));
     }
 }
+
+
+
+
 

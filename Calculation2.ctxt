@@ -1,5 +1,5 @@
 #BlueJ class context
-comment0.target=Calculation
+comment0.target=Calculation2
 comment0.text=\r\n\ WhiteBox\ Test\ \uC5F0\uC2B5(20200424)\r\n\r\n\ @author\ (\uC6B0\uBA54\uBAA8\uD1A0\uC138\uC774\uC57C\ 2018315056/\uC774\uC7AC\uADFC\ 2015225129)\r\n\ @version\ (2020.04.29)\r\n
 comment1.params=array
 comment1.target=int\ findMax(int[])
