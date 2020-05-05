@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Calculation_r02
+comment0.text=\r\n\ WBT\ by\ Statement\ Coverage\ &\ Decision\ Coverage\r\n\r\n\ @author\ (profsHwang)\r\n\ @version\ (2020.4.29)\r\n
+comment1.params=x\ y
+comment1.target=int\ min(int,\ int)
+comment1.text=\r\n\ Return\ smallest\ value\r\n\r\n\ @param\ \ x\ \ 1st\ number\r\n\ @param\ \ y\ \ 2nd\ number\r\n\ @return\ \ \ \ smallest\ value\r\n
+comment2.params=x\ y\ size
+comment2.target=boolean\ isValidPosition(int,\ int,\ int)
+comment2.text=\r\n\ 2\uCC28\uC6D0\ \uD3C9\uBA74\uC758\ \uC88C\uD45C\uAC12(x,\ y)\uAC00\ size\ *\ size\ \uC601\uC5ED\ \uB0B4\uBD80\uC5D0\ \uC874\uC7AC\uD558\uB294\uC9C0\ \uC5EC\uBD80\uB97C\ \uD310\uC815\r\n\r\n\ @param\ \ x\ \ 1st\ number\r\n\ @param\ \ y\ \ 2nd\ number\r\n\ @param\ \ size\ size\r\n\ @return\ \ \ \ true\ or\ false\ \r\n
+numComments=3
