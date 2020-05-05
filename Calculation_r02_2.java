@@ -15,7 +15,7 @@ public class Calculation_r02_2
      * @return    smallest value
      */
     public int min(int x, int y){
-        if(x<y) // 수정
+        if(x<y) // x>y를 x<y로 수정
             y = x;
         return y;
     }
@@ -30,7 +30,7 @@ public class Calculation_r02_2
      */
     public boolean isValidPosition(int x, int y, int size){
         boolean result;
-        if(x<size&&y<size) // 수정
+        if(x<size&&y<size) // result의 값을 true로 수정
             result = true;
         else
             result = false;
