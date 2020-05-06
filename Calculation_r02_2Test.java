@@ -44,15 +44,17 @@ public class Calculation_r02_2Test
     public void min_test()
     {
         Calculation_r02_2 calculat1 = new Calculation_r02_2();
-        assertEquals(2, calculat1.min(5, 2));
-        assertEquals(2, calculat1.min(2, 5));
+        assertEquals(12, calculat1.min(12, 16));
+        assertEquals(0, calculat1.min(0, 15));
+        assertEquals(0, calculat1.min(-15, -100));
     }
 
     @Test
     public void isValidPosition_test()
     {
         Calculation_r02_2 calculat1 = new Calculation_r02_2();
-        assertEquals(true, calculat1.isValidPosition(2, 4, 5));
+        assertEquals(true, calculat1.isValidPosition(60, 60, 80));
+        assertEquals(true, calculat1.isValidPosition(-60, -80, -50));
     }
 }
 
