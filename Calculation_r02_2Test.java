@@ -13,6 +13,7 @@ import org.junit.Test;
  */
 public class Calculation_r02_2Test
 {
+    Calculation_r02_2 calc;
     /**
      * Default constructor for test class Calculation_r02_2Test
      */
@@ -28,6 +29,7 @@ public class Calculation_r02_2Test
     @Before
     public void setUp()
     {
+         calc = new Calculation_r02_2();
     }
 
     /**
@@ -43,17 +45,29 @@ public class Calculation_r02_2Test
     @Test
     public void min_test()
     {
-        Calculation_r02_2 calculat1 = new Calculation_r02_2();
-        assertEquals(2, calculat1.min(5, 2));
-        assertEquals(2, calculat1.min(2, 5));
+        assertEquals(2, calc.min(5, 2));
+        assertEquals(2, calc.min(2, 5));
     }
 
     @Test
     public void isValidPosition_test()
     {
-        Calculation_r02_2 calculat1 = new Calculation_r02_2();
-        assertEquals(true, calculat1.isValidPosition(2, 4, 5));
+        assertEquals(true, calc.isValidPosition(2, 4, 5));       
+    }
+
+    @Test
+    public void isValidPosition_test2()
+    {
+        assertEquals(true, calc.isValidPosition(-2, -4, -5));
+    }
+
+    @Test
+    public void isValidPosition3()
+    {
+        assertEquals(true, calc.isValidPosition(-2, -4, 5));
     }
 }
+
+
 
 

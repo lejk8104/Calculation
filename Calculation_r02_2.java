@@ -30,7 +30,7 @@ public class Calculation_r02_2
      */
     public boolean isValidPosition(int x, int y, int size){
         boolean result;
-        if(x<size&&y<size) // result의 값을 true로 수정
+        if(Math.abs(x)<Math.abs(size)&&Math.abs(y)<Math.abs(size)) // result의 값을 true로 수정
             result = true;
         else
             result = false;
