@@ -46,7 +46,7 @@ public class Calculation_r02_2Test
         Calculation_r02_2 calculat1 = new Calculation_r02_2();
         assertEquals(12, calculat1.min(12, 16));
         assertEquals(0, calculat1.min(0, 15));
-        assertEquals(0, calculat1.min(-15, -100));
+        assertEquals(-100, calculat1.min(-15, -100));
     }
 
     @Test
