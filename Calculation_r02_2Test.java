@@ -56,7 +56,7 @@ public class Calculation_r02_2Test
     {
         Calculation_r02_2 calculat1 = new Calculation_r02_2();
         assertEquals(true, calculat1.isValidPosition(60, 60, 80));
-        assertEquals(true, calculat1.isValidPosition(-60, -80, -50));
+        assertEquals(true, calculat1.isValidPosition(-80, -80, -60));
     }
 }
 
