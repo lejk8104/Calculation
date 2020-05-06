@@ -45,26 +45,18 @@ public class Calculation_r02_2Test
     @Test
     public void min_test()
     {
-        assertEquals(2, calc.min(5, 2));
-        assertEquals(2, calc.min(2, 5));
+        Calculation_r02_2 calculat1 = new Calculation_r02_2();
+        assertEquals(12, calculat1.min(12, 16));
+        assertEquals(0, calculat1.min(0, 15));
+        assertEquals(-100, calculat1.min(-15, -100));
     }
 
     @Test
     public void isValidPosition_test()
     {
-        assertEquals(true, calc.isValidPosition(2, 4, 5));       
-    }
-
-    @Test
-    public void isValidPosition_test2()
-    {
-        assertEquals(true, calc.isValidPosition(-2, -4, -5));
-    }
-
-    @Test
-    public void isValidPosition3()
-    {
-        assertEquals(true, calc.isValidPosition(-2, -4, 5));
+        Calculation_r02_2 calculat1 = new Calculation_r02_2();
+        assertEquals(true, calculat1.isValidPosition(60, 60, 80));
+        assertEquals(true, calculat1.isValidPosition(-60, -80, -50));
     }
 }
 
